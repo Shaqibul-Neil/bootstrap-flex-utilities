@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bt5 Flex and Utilities</title>
+
+
+<!--css links-->
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/media.css">
+</head>
+<body>
+
+<section>
+	<div class="container">
+			<div class="box border border-success p-2 mb-5 border-opacity-75 border-5 rounded-circle  bg-danger bg-gradient"></div>
+			<div class="image d-lg-block d-none"><img src="images/logo.jpg" class= "rounded-pill mb-5" alt="oceans-edge"></div>
+			<div class="image"><img src="images/logo.jpg" class= "rounded-5 mb-5" alt="oceans-edge"></div>
+			<div class="image"><img src="images/logo.jpg" class= "rounded-end-circle mb-5" alt="oceans-edge"></div>
+			<div class="image d-xxl-block d-none"><img src="images/logo.jpg" class= "rounded-5 rounded-top-0 mb-5" alt="oceans-edge"></div>
+			<p class="text-dark text-opacity-50 mb-5 d-sm-none d-md-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed lectus non magna auctor auctor non id diam. Ut commodo id velit in iaculis. Nulla quis enim non enim varius pretium vitae vitae ligula. Sed sollicitudin, arcu a posuere faucibus, velit dolor lobortis justo, quis dictum nulla ligula sit amet sem. Vestibulum erat orci, condimentum vel tempor eget, egestas ac nisl. Pellentesque ultricies purus risus, laoreet egestas ligula volutpat vitae. Nulla convallis rutrum lacinia. In orci massa, faucibus at facilisis at, vulputate ut augue. Duis id tincidunt mauris. Nunc eleifend eros et turpis commodo bibendum.</p>
+			<div class="d-flex text-dark p-3 mb-5 bg-info">condimentum vel tempor eget, egestas ac nisl.</div>
+			<div class="d-inline-flex d-xxl-flex text-dark p-3 mb-5 bg-info">condimentum vel tempor eget, egestas ac nisl.</div>
+			<div class="text-white d-flex flex-column flex-md-row justify-content-evenly mb-5">
+				<div class="p-3 bg-dark">Flex1</div>
+				<div class="p-3 bg-danger">Flex2</div>
+				<div class="p-3 bg-primary ">Flex3</div>
+			</div>
+			<div class="box2 text-white d-flex flex-column mb-5">
+				<div class="p-5 bg-dark order-3">Flex1</div>
+				<div class="p-5 bg-danger order-1">Flex2</div>
+				<div class="p-5 bg-primary mb-auto order-2">Flex3</div>
+			</div>
+		<div class="d-flex align-items-center">
+			<div class="flex-shrink-0"><img src="images/logo.jpg"alt="oceans-edge"></div>
+			<div class="flex-grow-1 ms-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed lectus non magna auctor auctor non id diam.</div>
+		</div>
+		<div class="box3 text-white d-flex align-items-center flex-row-reverse mb-5">
+				<div class="p-5 bg-dark align-self-stretch flex-fill">Flex1 Flex1 Flex1 Flex1 Flex1</div>
+				<div class="p-5 bg-danger flex-fill">Flex2</div>
+				<div class="p-5 bg-primary align-self-baseline flex-fill">Flex3</div>
+				<div class="p-5 bg-secondary flex-fill">Flex4</div>
+		</div>
+		<div>
+			<div class="user-select-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed lectus non magna auctor auctor non id diam</div>
+			<div class="user-select-none">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed lectus non magna auctor auctor non id diam</div>
+			<div class="user-select-all">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed lectus non magna auctor auctor non id diam</div>
+			<p class="mt-5"><a class="link-success link-opacity-50 link-opacity-100-hover link-underline-danger link-offset-3" href="#">Link opacity 75</a></p>
+		</div>
+		<div class="position-relative">
+  			<div class="position-absolute top-0 start-0 translate-middle bg-warning-subtle">1</div>
+  			<div class="position-absolute top-0 start-50 translate-middle-x bg-info">2</div>
+  			<div class="position-absolute top-0 start-100 translate-middle-x-y bg-danger">3</div>
+  			<div class="position-absolute top-50 start-0 translate-middle-y bg-success">4</div>
+  			<div class="position-absolute top-50 start-50 translate-middle bg-secondary">5</div>
+  			<div class="position-absolute top-50 start-100 translate-middle bg-warning">6</div>
+  			<div class="position-absolute top-100 start-0 translate-middle bg-danger-subtle">7</div>
+  			<div class="position-absolute top-100 start-50 translate-middle bg-secondary-subtle">8</div>
+  			<div class="position-absolute top-100 start-100 translate-middle bg-primary-subtle">9</div>
+		</div>
+		<div>
+			<div class="shadow-none p-3 mb-5 bg-body-tertiary rounded w-25">No shadow</div>
+			<div class="shadow-sm p-3 mb-5 bg-body-tertiary rounded w-50">Small shadow</div>
+			<div class="shadow p-3 mb-5 bg-body-tertiary rounded w-75">Regular shadow</div>
+			<div class="shadow-lg p-3 mb-5 bg-body-tertiary rounded">Larger shadow</div>
+		</div>
+		<div class="d-grid gap-3 column-gap-3">
+			<div class="p-2 g-col-6 bg-warning fs-4">Item 1</div>
+			<div class="p-2 g-col-6 bg-danger fs-1 fw-bolder">Item 2</div>
+			<div class="p-2 g-col-6 bg-info fst-italic">Item 3</div>
+			<div class="p-2 g-col-6 bg-primary">Item 4</div>
+		</div>
+
+
+
+</section>
+
+<!--js link-->
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
